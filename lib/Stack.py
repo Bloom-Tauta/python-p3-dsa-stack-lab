@@ -1,8 +1,6 @@
 class Stack:
 
-    def __init__(self, items=None, limit = 100):
-        if items is None:
-            items = []
+    def __init__(self, items=[], limit = 100):
         self.items = items
         self.limit = limit
 
